@@ -1,0 +1,132 @@
+body {
+    font-size: 12px;
+}
+
+.caixa-banner{
+    background-image: url(../img/banner-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo1{
+    text-shadow: 2px 2px 2px rgb(216, 203, 203);
+    font-size: 2rem;
+}
+
+.subtitulo1{
+    font-size: 1.5rem;
+    color:rgb(7, 3, 36);
+    text-shadow: 2px 2px 2px rgb(216, 203, 203);
+}
+
+.link-sobre{
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #522222;
+    font-weight: bold;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+.titulo-sobre{
+
+    margin-left: 20px;
+    font-size: 1.9rem;
+    color: #240420;
+}
+/*passar mouse*/
+.link-sobre:hover{
+    background-color: rgb(255, 0, 212);
+}
+
+.caixa-sobre{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+
+.lado1 {
+    width: 35%;
+}
+
+.margin-texto{
+    margin-bottom: 40px;
+}
+
+.lado2 {
+    width: 35%;
+}
+
+.link-cv{
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    background-color: #522222;
+    padding: 8px 20px;
+    border-radius: 20px;
+    transition: all .5s;
+}
+.link-cv:hover{
+    transform: scale(1.2);
+    background-color: blueviolet;
+}
+
+ul{
+    font-size: 1.1rem;
+}
+
+h3{
+    margin-left: 20px;
+    color:#522222;
+}
+.caixa-links{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.face{
+    width: 50px;
+}
+img{
+    width: 60%;
+}
+.links{
+    background-color: #522222;
+    width: 160px;
+    height: 185px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    margin-bottom: 18px;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    transition: all;
+    /*animação*/
+    transition: all .5s;
+}
+.links:hover{
+    transform: scale(1.2);
+}
+@media screen and (max-width: 768px){
+    .caixa-sobre{
+        flex-direction: column;
+    }
+    .lado1, .lado2{
+        width: 100%;
+    }
+    
+}
